@@ -1,1 +1,2 @@
 # Landing-Page
+In this project I will showcase my HTML and CSS skills by developing a landing page (not responsive). I just finished the CSS Flexbox section of The Odin Project and now I want to test my powers through building something from scratch.
