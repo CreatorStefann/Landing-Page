@@ -136,7 +136,6 @@ ul a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .atreia p:nth-of-type(1) {
@@ -151,5 +150,53 @@ ul a {
 .atreia p:nth-of-type(2) {
     font-weight: bold;
     color: black;
-    margin-left: 60%;
+    align-self: flex-end;
+    margin-right: 130px;
+    margin-bottom: 130px;
+}
+
+.apatra {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerpatru {
+    height: 130px;
+    flex-grow: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.containerpatru button{
+    color: white;
+    background-color: #3882F6;
+    width: 120px;
+    border-style: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.footer{
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 15px;
 }
